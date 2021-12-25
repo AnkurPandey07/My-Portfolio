@@ -1,3 +1,4 @@
+/************** Importing GOOGLE FONTS *************/
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
@@ -203,10 +204,10 @@ ul{
     font-size: 30px;
   }
   .i-names{
-    font-size: 40px
+    font-size: 35px
   }
   .i-title-item{
-    font-size: 50px;
+    font-size: 30px;
   }
   .i-left{
     height: 42vh;
@@ -245,7 +246,7 @@ ul{
     font-size: 40px
   }
   .i-title-item{
-    font-size: 60px;
+    font-size: 50px;
   }
   .i-left{
     display: flex;
@@ -548,7 +549,7 @@ ul{
   }
 
   .s-texts{
-    width: 100%;
+    width: 55%;
   }
   .lang{
     height: 15vh;
@@ -580,7 +581,7 @@ ul{
   }
 
   .s-texts{
-    width: 100%;
+    width: 26%;
   }
   .lang{
     height: 18vh;
@@ -594,9 +595,9 @@ ul{
     padding: 5px;
     width: 100%;
   }
-
+  
   .s-texts{
-    width: 100%;
+    width: 20%;
   }
   .lang{
     height: 18vh;
@@ -846,12 +847,12 @@ button:hover{
 
 @media screen and (max-width : 360px){
   .c{
-    height: 125vh;
+    height: 132vh;
   }
 
   .c-wrapper{
     flex-direction: column;
-    padding: 0px 50px;
+    padding: 0px 30px;
   }
 
   .c-right{
@@ -866,13 +867,13 @@ button:hover{
 
   input{
     width: 95%;
-    height: 40px;
+    height: 30px;
     margin: 10px;
     margin-left: 0px;
   }
   
   button{
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
 }
@@ -910,7 +911,7 @@ button:hover{
 
 @media screen and (max-width : 780px) and (min-width : 480px){
   .c{
-    height: 102vh;
+    height: 123vh;
   }
 
   .c-wrapper{
@@ -937,7 +938,6 @@ button:hover{
 
   button{
   margin-top: 20px;
-  margin-left: 250px;
   }
 }
 
@@ -967,7 +967,6 @@ button:hover{
 
   button{
     margin-top: 20px;
-  margin-left: 400px;
   }
 }
 
