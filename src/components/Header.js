@@ -1,9 +1,10 @@
 import React from 'react';
 import Typed from 'react-typed';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+/**************** IMPORTING IMAGE ****************/
 import Home from '../img/home.png';
 
+/**************** REACT ICONS ****************/
 import { FaFacebook } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';

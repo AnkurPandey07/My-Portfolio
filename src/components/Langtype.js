@@ -1,4 +1,6 @@
 
+/**************** USED ARRAY FOR SKILL PAGE ****************/
+
 export const typesoflanguage = [
     {
         id: 1,

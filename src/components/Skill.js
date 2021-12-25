@@ -1,5 +1,9 @@
 import react from 'react';
+
+/**************** IMPORTING LANGUAGE.JS ****************/
 import Language from './Language';
+
+/**************** IMPORTING ARRAY OBJECT FROM LANGTYPE.JS ****************/
 import {typesoflanguage} from './Langtype';
 
 function Skill() {

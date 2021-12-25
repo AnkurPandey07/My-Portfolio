@@ -1,4 +1,6 @@
 import React from 'react';
+
+/**************** IMPORTING IMAGE ****************/
 import Cont from '../img/contact.png';
 
 function Contact() {

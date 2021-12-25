@@ -1,4 +1,6 @@
 import React from 'react';
+
+/**************** IMPORTING ARRAY OBJECT FROM LANGTYPE.JS ****************/
 import {typesoflanguage} from './Langtype';
 
 function Language({image}){

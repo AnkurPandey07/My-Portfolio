@@ -1,4 +1,8 @@
+
 /************** Importing GOOGLE FONTS *************/
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
@@ -6,6 +10,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+
+
+
+/************ Custom Variables **************/
+
+
 
 :root{
   --primary-white: #ffffff;
@@ -16,12 +26,23 @@
   --primary-orange: rgb(252, 111, 3);
 }
 
+
+
+/**************** HTML BODY ****************/
+
+
+
 body{
   font-family: 'Lora', serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
+
+
+
+/**************** NAVBAR STYLING ****************/
+
 
 .navbar{
   background-color: var(--primary-nav) !important;
@@ -74,6 +95,7 @@ nav ul li{
 
 
 
+/**************** HOME PAGE STYLING ****************/
 
 
 
@@ -184,6 +206,11 @@ ul{
    width: 100%;
    object-fit: cover;
  }
+
+
+
+ /**************** MAKING HOME PAGE RESPONSIVE ****************/
+
 
 
 @media screen and (max-width : 360px){
@@ -317,6 +344,7 @@ ul{
 
 
 
+/**************** ABOUT PAGE STYLING ****************/
 
 
 
@@ -368,6 +396,12 @@ ul{
    font-size: 23px;
    font-family: 'Kalam', cursive;
 }
+
+
+
+/**************** MAKING ABOUT PAGE RESPONSIVE ****************/
+
+
 
 @media screen and (max-width : 360px){
   .a{
@@ -504,6 +538,9 @@ ul{
 
 
 
+/**************** SKILL PAGE DESIGNING ****************/
+
+
 
 .s{
   height: 102vh;
@@ -540,6 +577,11 @@ ul{
 .lang-img{
   width: 100%;
 }
+
+
+/**************** MAKING SKILL PAGE RESPONSIVE ****************/
+
+
 
 @media screen and (max-width : 360px){
   .s{
@@ -608,6 +650,9 @@ ul{
 
 
 
+/**************** PROJECT PAGE STYLING ****************/
+
+
 
 .proj{
   min-height: 93vh;
@@ -670,31 +715,44 @@ ul{
   font-family: 'Libre Franklin', sans-serif;
 }
 
+
+
+/**************** MAKING PROJECT PAGE RESPONSIVE ****************/
+
+
+
 @media screen and (max-width : 360px){
-.proj{
+
+ .proj{
   min-height: 100vh;
-}
-.proj-title{
+ }
+
+ .proj-title{
   text-align: center;
-}
-.proj-wrapper{
+ }
+
+ .proj-wrapper{
   display: flex;
   flex-direction: column;
-}
-.card{
+ }
+
+ .card{
   height: 600px;
   width: 250px;
-}
+ }
 }
 
 
 @media screen and (max-width : 480px)and (min-width : 370px){
+
   .proj{
     min-height: 100vh;
   }
+
   .proj-title{
     text-align: center;
   }
+  
   .proj-wrapper{
     display: flex;
     flex-direction: column;
@@ -707,16 +765,20 @@ ul{
 
 
 @media screen and (max-width : 780px) and (min-width : 480px){
+
   .proj{
     min-height: 100vh;
   }
+
   .proj-title{
     text-align: center;
   }
+
   .proj-wrapper{
     display: flex;
     flex-direction: column;
   }
+
   .card{
     height: 555px;
     width: 500px;
@@ -725,16 +787,20 @@ ul{
 
 
 @media screen and (max-width : 1200px) and (min-width : 780px){
+
   .proj{
     min-height: 102vh;
   }
+
   .proj-title{
     text-align: center;
   }
+
   .proj-wrapper{
     display: flex;
     flex-direction: column;
   }
+
   .card{
     height: 600px;
     width: 550px;
@@ -744,8 +810,7 @@ ul{
 
 
 
-
-
+/**************** CONTACT PAGE STYLING ****************/
 
 
 
@@ -845,7 +910,13 @@ button:hover{
 }
 
 
+
+/**************** MAKING CONTACT PAGE RESPONSIVE ****************/
+
+
+
 @media screen and (max-width : 360px){
+
   .c{
     height: 132vh;
   }
@@ -881,6 +952,7 @@ button:hover{
 
 
 @media screen and (max-width : 480px) and (min-width : 370px){
+
   .c{
     height: 113vh;
   }
@@ -910,6 +982,7 @@ button:hover{
 }
 
 @media screen and (max-width : 780px) and (min-width : 480px){
+
   .c{
     height: 123vh;
   }
@@ -943,6 +1016,7 @@ button:hover{
 
 
 @media screen and (max-width : 1200px) and (min-width : 780px){
+
   .c-wrapper{
     flex-direction: column;
     padding: 0px 40px;
@@ -973,3 +1047,4 @@ button:hover{
 
 
 
+/**************** x-x-x--------END--------x-x-x ****************/

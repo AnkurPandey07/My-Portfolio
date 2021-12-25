@@ -1,6 +1,10 @@
 import React from 'react';
+
+/**************** IMPORTING IMAGE ****************/
 import Images from '../img/Project.png';
 import Img from '../img/Proj.png';
+
+
 function Project() {
     return (
         <div className='proj' id='project'>

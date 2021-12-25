@@ -1,4 +1,6 @@
 import React from 'react';
+
+/**************** IMPORTING IMAGE ****************/
 import myself from '../img/lg10.jpeg';
 
 function About(){
